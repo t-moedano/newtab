@@ -19,7 +19,7 @@ main{
     box-shadow: 0 0 10px black;
   }
   
-  .title{
+  .text-center{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,14 +30,14 @@ main{
     margin-bottom: 20px;
   }
   
-  .input {
+  .form-group {
     display: flex;
     width: 300px;
     height: 50px;
     justify-content: space-between;
     align-items: center;
   }
-  .input input {
+  .form-group input {
     width: 200px;
     height: 50px;
     border-radius: 5px;
@@ -47,7 +47,7 @@ main{
     text-align: center;
   }
   
-  .input label {
+  .form-group label {
     font: bold 1.5rem serif;
   }
   
